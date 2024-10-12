@@ -1,0 +1,277 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyNE1cSWbpJ7AarwOyDQrgHA",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/Ayesha-Siddiqa-khan/Python-Alpha/blob/main/calculator\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 3,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "AHE0mqvngbeU",
+        "outputId": "f099ba9a-42e6-427e-f1a3-dda042826ea8"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your first number : 15\n",
+            "Enter your second number65\n",
+            "The sum is : 40.0\n"
+          ]
+        }
+      ],
+      "source": [
+        "a = int(input(\"Enter your first number : \"))\n",
+        "b = int(input(\"Enter your second number\"))\n",
+        "c = (a + b)/2\n",
+        "print (\"The sum is :\", c)\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = int(input(\"Enter first value :\"))\n",
+        "num2 = int(input(\"Enter second value :\"))\n",
+        "result_diff = num1 / num2\n",
+        "# print(result_diff)\n",
+        "print(f\"The difference is: {result_diff}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "aFQNK2J5hP2I",
+        "outputId": "e57a5848-b210-4a64-a654-0826d041eaf3"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first value :54\n",
+            "Enter second value :6\n",
+            "The difference is: 9.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = int(input(\"Enter first value :\"))\n",
+        "num2 = int(input(\"Enter second value :\"))\n",
+        "result_diff = num1 * num2\n",
+        "# print(result_diff)\n",
+        "print(f\"The difference is: {result_diff}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "hpN5HV-YjsvH",
+        "outputId": "1b19676d-cfee-4447-bffd-a6a27c629563"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first value :45\n",
+            "Enter second value :5\n",
+            "The difference is: 225\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = int(input(\"Enter first value :\"))\n",
+        "num2 = int(input(\"Enter second value :\"))\n",
+        "result_diff = num1 + num2\n",
+        "# print(result_diff)\n",
+        "print(f\"The difference is: {result_diff}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0GDVbckOkHTm",
+        "outputId": "e65302ec-5b99-4258-d922-da9e3c523570"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first value :99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999\n",
+            "Enter second value :1\n",
+            "The difference is: 100000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = int(input(\"Enter first value : \"))\n",
+        "num2 = int(input(\"Enter second value :\"))\n",
+        "result_diff = num1 - num2\n",
+        "print(f\"The difference is : {result_diff}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0JwwmOtslBkf",
+        "outputId": "a43a429a-bc9a-42f9-aa55-f9b7ee291515"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first value : 12\n",
+            "Enter second value :6\n",
+            "The difference is : 6\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "num1 = int(input(\"Enter first value : \"))\n",
+        "num2 = int(input(\"Enter second value :\"))\n",
+        "result_diff =(num1 + num2) / 2\n",
+        "print(f\"The difference is : {result_diff}\")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "Seum-PKIpmxP",
+        "outputId": "572fe20e-b84c-4481-c566-8b0ab6166909"
+      },
+      "execution_count": 14,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter first value : 45\n",
+            "Enter second value :5\n",
+            "The difference is : 25.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "a = int(input(\"Enter your first number : \"))\n",
+        "b = int(input(\"Enter your second number\"))\n",
+        "c = (a + b)/2\n",
+        "print (\"The sum is :\", c)\n",
+        "\n",
+        "\n",
+        "num1 = int(input(\"Enter first value :\"))\n",
+        "num2 = int(input(\"Enter second value :\"))\n",
+        "result_diff = num1 / num2\n",
+        "# print(result_diff)\n",
+        "print(f\"The difference is: {result_diff}\")\n",
+        "\n",
+        "\n",
+        "num1 = int(input(\"Enter first value :\"))\n",
+        "num2 = int(input(\"Enter second value :\"))\n",
+        "result_diff = num1 * num2\n",
+        "# print(result_diff)\n",
+        "print(f\"The difference is: {result_diff}\")\n",
+        "\n",
+        "\n",
+        "num1 = int(input(\"Enter first value :\"))\n",
+        "num2 = int(input(\"Enter second value :\"))\n",
+        "result_diff = num1 + num2\n",
+        "# print(result_diff)\n",
+        "print(f\"The difference is: {result_diff}\")\n",
+        "\n",
+        "\n",
+        "num1 = int(input(\"Enter first value : \"))\n",
+        "num2 = int(input(\"Enter second value :\"))\n",
+        "result_diff = num1 - num2\n",
+        "print(f\"The difference is : {result_diff}\")\n",
+        "\n",
+        "\n",
+        "num1 = int(input(\"Enter first value : \"))\n",
+        "num2 = int(input(\"Enter second value :\"))\n",
+        "result_diff =(num1 + num2) / 2\n",
+        "print(f\"The difference is : {result_diff}\")\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "YzFhYsTMp1_Q",
+        "outputId": "ec58456b-6a69-47a2-8f95-9a8f5951850b"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Enter your first number : 125\n",
+            "Enter your second number21\n",
+            "The sum is : 73.0\n",
+            "Enter first value :31\n",
+            "Enter second value :21\n",
+            "The difference is: 1.4761904761904763\n",
+            "Enter first value :12\n",
+            "Enter second value :1\n",
+            "The difference is: 12\n",
+            "Enter first value :122\n",
+            "Enter second value :312\n",
+            "The difference is: 434\n",
+            "Enter first value : 76\n",
+            "Enter second value :363\n",
+            "The difference is : -287\n",
+            "Enter first value : 4\n",
+            "Enter second value :3\n",
+            "The difference is : 3.5\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
